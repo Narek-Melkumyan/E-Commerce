@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-nav {
+  margin: 0 30px;
+}
+
+.nav-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.gray-background {
+  background-color: #f8f9fa;
+}
+
+.green-background {
+  background-color: #eaf3ee;
+}
+
+.title .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title h1 {
+  padding-bottom: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.title p {
+  font-size: 15.3px;
+  padding-top: 15px;
+}
+.title .dev-text {
+  font-size: 15.3px;
+  padding: 40px 0;
+}
+.title button {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.title-text {
+  padding: 130px 0;
+  width: 50%;
+}
+
+.pineapple-img {
+  position: absolute;
+  left: 0;
+}
+
+.chair-img {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+
+.furniture-img {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+.my-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 49%;
+  border: none;
+  border-radius: 15px;
+}
+
+.stores {
+  margin-bottom: 50px;
+}
+
+.my-card-body {
+  width: 37%;
+  text-align: center;
+  padding-top: 70px;
+  line-height: 1.5;
+}
+.my-card-body h5 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.my-card-body .card-text {
+  font-size: 17px;
+}
+
+.card-logo {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card-logo img {
+  width: 15%;
+}
+
+.fresh-card h2 {
+  margin: 20px 0;
+}
+.fresh-card .card {
+  margin: 20px 0;
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #e9ecef;
+}
+.fresh-card .card-body {
+  padding: 10px 0;
+}
+.fresh-card .card-title {
+  font-weight: bold;
+}
+.fresh-card .card-text {
+  font-size: 15px;
+}
+
+.footer {
+  margin-top: 70px;
+}
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-text {
+  width: 40%;
+  padding: 50px 0;
+}
+.footer h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.footer p {
+  margin: 20px 0;
+  line-height: 2;
+}
+.footer button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .stores .card {
+    width: 100%;
+  }
+  .stores .my-card-body {
+    width: 100%;
+  }
+  .footer .footer-text {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .pineapple-img, .chair-img, .furniture-img {
+    display: none;
+  }
+  .title .title-text {
+    width: 100%;
+  }
+  .fresh-card .card {
+    width: 47%;
+  }
+  .footer h2 {
+    font-size: 30px;
+  }
+  .footer p {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .title h1 {
+    font-size: 37px;
+  }
+  .title-text {
+    padding: 40px 0;
+  }
+  .my-card-body .card-text {
+    font-size: 15px;
+  }
+  .fresh-card .card {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer h2 {
+    font-size: 28px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
