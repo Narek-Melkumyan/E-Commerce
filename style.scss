@@ -69,7 +69,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  width: 49%;
   border: none;
   border-radius: 15px;
 
@@ -106,9 +105,9 @@
     margin: 20px 0;
   }
   .card{
-    margin: 20px 0;
-    width: 30%;
-    padding: 20px;
+  margin-top: 10px;
+    min-height: 230px;
+
     border: 1px solid #e9ecef;
   }
   .card-body{
@@ -174,9 +173,7 @@
     }
   }
   .fresh-card{
-    .card{
-      width: 47%;
-    }
+
   }
   .footer{
     h2{
